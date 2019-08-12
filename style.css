@@ -331,6 +331,11 @@ p {
     transition: border .2s linear;
 }
 
+.fab--footer {
+    background-color: #3a3e64;
+    color: #ffffff;
+}
+
 .fab:hover {
     color: black;
     border: 1px solid black;
@@ -415,4 +420,41 @@ p {
     line-height: 21px;
     text-transform: uppercase;
     margin-bottom: 30px;
+}
+
+.footer {
+    background-color: #3a3e64;
+    height: 250px;
+
+}
+
+.colums {
+    display: flex;
+}
+
+.colums__info__title {
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+}
+
+.colums__info__text {
+    opacity: 0.5;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.5px;
+    padding: 0 20px;
+}
+
+.col {
+    width: 33%;
+    text-align: center;
+    margin-top: 70px;
+
 }
