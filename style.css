@@ -30,8 +30,9 @@ p {
 ===========*/
 .container {
     width: 100%;
-    max-width: 1170px;
+    max-width: 1200px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 /*Header
@@ -262,4 +263,70 @@ p {
     font-family: Raleway;
     font-size: 14px;
     font-weight: 400;
+}
+
+.team {
+    margin: 100px 0 70px;
+}
+
+.team__personal {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.team__personal__item {
+    width: 25%;
+    padding: 0 15px;
+    margin-bottom: 30px;
+
+
+}
+
+.team__personal__img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+
+}
+
+.team__personal__name {
+    color: #2d3033;
+    font-family: Raleway;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.team__personal__profession {
+    color: #e84545;
+    font-family: Raleway;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.team__personal__text {
+    color: #6c7279;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    margin-bottom: 20px;
+}
+
+.fab {
+    border: 1px solid #e8ecee;
+    background-color: #ffffff;
+    padding: 9px;
+    cursor: pointer;
+    transition: color .2s linear;
+    transition: border .2s linear;
+}
+
+.fab:hover {
+    color: black;
+    border: 1px solid black;
 }
