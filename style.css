@@ -152,12 +152,17 @@ p {
     padding: 14px 40px;
     cursor: pointer;
     font-family: inherit;
+    text-align: center;
     border: 0;
     transition: background .2s linear;
 }
 
 .btn--red {
     background-color: #e84545;
+}
+
+.btn__long {
+    min-width: 280px;
 }
 
 .btn--red:hover {
@@ -382,4 +387,32 @@ p {
     font-weight: 700;
     line-height: 21px;
     text-transform: uppercase;
+}
+
+
+.download {
+    margin: 90px 0;
+
+    text-align: center;
+
+
+}
+
+.download__title {
+    color: #2d3033;
+    margin-bottom: 10px;
+    font-family: Raleway;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 21px;
+}
+
+.download__text {
+    color: #2d3033;
+    font-family: Raleway;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 21px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
 }
