@@ -330,3 +330,56 @@ p {
     color: black;
     border: 1px solid black;
 }
+
+
+.reviews {
+    background-color: #53354a;
+    overflow: hidden;
+}
+
+.reviews__item {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.reviews__photo {
+    width: 50%;
+    height: 500px;
+    position: relative;
+
+}
+
+.reviews__content {
+    width: 50%;
+    padding-left: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.reviews__img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    z-index: 1;
+}
+
+.reviews__text {
+    color: #ffffff;
+    font-family: Cardo;
+    font-size: 36px;
+    font-style: italic;
+    line-height: 42px;
+}
+
+.reviews__author {
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 21px;
+    text-transform: uppercase;
+}
