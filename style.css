@@ -458,3 +458,26 @@ p {
     margin-top: 70px;
 
 }
+
+.copyright {
+    background-color: #313454;
+}
+
+.copyright__inner {
+    /* Style for "Copyright" */
+    text-align: center;
+    color: #808080;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.5px;
+    /* Text style for "Copyright" */
+    font-family: Raleway;
+    padding: 30px 0;
+
+
+}
+
+.copyright__inner span {
+    color: red;
+}
