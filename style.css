@@ -466,12 +466,13 @@ p {
 
 .footer {
     background-color: #3a3e64;
-    height: 250px;
+    height: auto;
 
 }
 
 .colums {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .colums__info__title {
@@ -563,6 +564,21 @@ p {
         margin-right: auto;
     }
 
+    .reviews__photo {
+        width: 100%;
+        overflow: hidden;
+        margin: 15px 0 40px;
+
+
+    }
+
+    .reviews__content {
+        width: 100%;
+        padding-left: 0;
+        padding-bottom: 40px;
+    }
+
+
 
 
 }
@@ -606,5 +622,37 @@ p {
 
     .team {
         margin: 60px 0 30px;
+    }
+
+    .reviews__text {
+        font-size: 25px;
+    }
+
+    .btn__long {
+        min-width: 260px;
+
+    }
+
+    .download {
+        margin: 50px 0;
+    }
+
+    .download__title {
+        font-size: 24px;
+    }
+
+    .col {
+        width: 100%;
+        margin-bottom: 30px;
+        margin-top: 20px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+}
+
+@media(max-width:414px) {
+    .reviews__img {
+        right: -100px;
     }
 }
